@@ -3,13 +3,16 @@
 <h1 align="center">Hi, I'm Anuj Kumar 👋</h1>
 
 <p align="center">
-  <b>Senior Software Engineer · Backend & Generative AI</b><br>
-  <i>SenseHawk (acquired by Reliance) · Abu Dhabi, UAE 🇦🇪</i>
+  <b>Senior Software Engineer · Backend Systems & Generative AI</b><br>
+  <i>SenseHawk (Reliance Industries) · Abu Dhabi, UAE 🇦🇪</i>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/anujkumar1512/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-anujkumar1512-0077B5?style=flat&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sendto.anujkumar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sendto.anujkumar@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
   <img src="https://komarev.com/ghpvc/?username=anujkumar-5&style=flat&color=grey" alt="profile views" />
 </p>
@@ -18,15 +21,46 @@
 
 ### About me
 
-I build **scalable backend systems** and **agentic AI products** for renewable energy and enterprise SaaS — with 7+ years of end-to-end experience from microservice architecture to production LLM pipelines.
+I build **scalable backend systems and agentic AI products** for complex, data-heavy enterprise workflows — with 7+ years shipping production microservices, event-driven architectures, and LLM pipelines.
 
-At **SenseHawk (Reliance)**, I've led development of AI-powered platforms that cut site reporting from a week to real time, enabling solar construction teams across India and the UAE to operate from a single tablet.
+At **SenseHawk (Reliance Industries)**, I've owned and delivered multiple backend-heavy product pillars end to end — from real-time collaboration services and workflow engines to multi-agent AI systems — generating **$1M+ in platform revenue** and automating **10,000+ daily operations**.
 
-- 🤖 Building **NaaviX** — a multilingual agentic AI copilot for solar construction workflows (RAG, tool-using agents, GIS & drone data)
-- 🗺️ Architecting **TaskMapper** — a solar OS covering planning → QA/QC → commissioning → COD readiness
-- ⚡ Focused on: agentic systems, RAG pipelines, Model Context Protocol (MCP), NL-to-SQL
-- 🌱 Experimenting with: TOON (token-efficient prompt representations), distributed LLM inference
-- 🎯 Backend-heavy: Node.js, Python, MongoDB, Kafka, AWS, Docker, Kubernetes
+- 🤖 **AI & Agents** — Multi-agent systems (Google ADK), RAG pipelines, NL-to-SQL, vector search (ChromaDB)
+- ⚙️ **Backend** — Node.js, FastAPI, microservices, CQRS, event-driven architecture, WebSockets
+- 🗄️ **Data** — PostgreSQL, MongoDB, DuckDB, Redis, data warehouse design
+- ☁️ **Infra** — AWS, Docker, CI/CD, Datadog APM/RUM observability
+- 🧑‍🤝‍🧑 **Leadership** — Mentored a team of 4 backend engineers; introduced PR culture, coding standards, knowledge sharing
+
+---
+
+### What I've shipped
+
+**🤖 NaaviX — Multi-Agent AI Platform** *(Google ADK · FastAPI · ChromaDB · NL-to-SQL)*
+> Production-grade agentic AI system for enterprise data querying. Multilingual NL interface, NL-to-SQL dynamic reporting, voice-driven template creation, and a Human-In-The-Loop gate for all transactional writes. Cut ad-hoc reporting from days to under 60 seconds. Zero AI-caused data integrity incidents post-launch.
+
+**📋 Forms & Workflow Engine** *(Node.js · PostgreSQL · Event-Driven)*
+> Backend for a configurable digital form and workflow system with conditional logic, approval flows, and field-level validations. Compressed inspection completion from 30 days to 7 days — a 77% reduction — directly enabling $1M+ in platform revenue.
+
+**✍️ Real-Time Annotations Service** *(WebSocket · Node.js · CQRS)*
+> Google Docs-style collaborative annotation backend built on WebSockets. Eliminated email-based QA/QC feedback loops and cut review cycle time by over 50% on high-volume projects.
+
+**📊 Project Management Platform** *(Node.js · PostgreSQL · Primavera/MS Project sync)*
+> Backend platform with bi-directional Primavera/MS Project sync, automated S-curve generation, and live dashboards. Now managing a multi-GW asset portfolio across construction, QA/QC, and O&M workflows.
+
+---
+
+### Impact at a glance
+
+| What | Result |
+|---|---|
+| NaaviX AI reporting | Ad-hoc queries: **days → under 60 seconds** |
+| RAG pipeline automation | Replaced **3–4 analyst hours** per report |
+| Forms & Workflow Engine | Completion cycle: **30 days → 7 days (77% faster)** |
+| Platform revenue contribution | **$1M+** directly enabled |
+| CQRS architecture migration | Query throughput **+40%**, zero-downtime rollout |
+| Datadog observability rollout | P95 latency **−35%** across key user flows |
+| ETL pipeline @ Vymo | **1M+ leads** processed; runtime **−45%** |
+| Multilingual NLP layer | Addressable user base expanded by **~40%** |
 
 ---
 
@@ -35,57 +69,50 @@ At **SenseHawk (Reliance)**, I've led development of AI-powered platforms that c
 **Backend**
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat)
+![CQRS](https://img.shields.io/badge/CQRS-6366F1?style=flat)
+![Event-Driven](https://img.shields.io/badge/Event--Driven_Architecture-8B5CF6?style=flat)
 
 **AI / LLM**
 
+![Google ADK](https://img.shields.io/badge/Google_ADK-4285F4?style=flat&logo=google&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG_Pipelines-6366F1?style=flat)
-![Agentic Systems](https://img.shields.io/badge/Agentic_Systems-0EA5E9?style=flat)
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-8B5CF6?style=flat)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-0EA5E9?style=flat)
+![NL-to-SQL](https://img.shields.io/badge/NL--to--SQL-6366F1?style=flat)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat)
 
-**Infrastructure & Cloud**
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
+
+**Cloud & Infra**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog_APM/RUM-632CA6?style=flat&logo=datadog&logoColor=white)
 
 ---
 
-### Impact highlights
+### Currently exploring
 
-| What | Result |
-|---|---|
-| AI reporting pipeline (NaaviX) | Cut site reporting from **7 days → real time** |
-| ETL pipeline @ Vymo | Processed **1M+ leads** reliably at scale |
-| Integration time reduction | Reduced client onboarding time via tight technical-process alignment |
-| COD readiness insight engine | Real-time commissioning status for solar blocks across India & UAE |
-
----
-
-### What I'm exploring
-
-- **Tool-using agents** and multi-step reasoning patterns in production
-- **Model Context Protocol (MCP)** for plugging LLMs into live enterprise data
-- **TOON** — token-efficient prompt representations for cheaper, faster LLM calls
-- **NL-to-SQL** for heterogeneous SaaS data sources
-
----
-
-### Featured repos
-
-> *(Coming soon — public versions of select projects and experiments)*
+- **Model Context Protocol (MCP)** — plugging LLMs into live enterprise data sources
+- **Multi-agent orchestration patterns** with Google ADK and LangGraph
+- **Distributed LLM inference** for low-latency enterprise deployments
+- **NL-to-SQL** at scale across heterogeneous schemas
 
 ---
 
 ### Certifications
 
 - 📜 Generative AI: Working with Large Language Models — LinkedIn Learning
-- 📜 Advanced JavaScript — LinkedIn Learning
+- 📜 JavaScript Advanced — Cutshort Certified (ID: 50552)
 
 ---
 
@@ -97,6 +124,6 @@ At **SenseHawk (Reliance)**, I've led development of AI-powered platforms that c
 ---
 
 <p align="center">
-  <i>Open to senior backend / AI engineering roles and interesting problems at scale.</i><br>
-  <a href="https://www.linkedin.com/in/anujkumar1512/">Let's connect on LinkedIn →</a>
+  <i>Open to senior backend and AI engineering roles — systems that scale, architectures that last.</i><br>
+  <a href="https://www.linkedin.com/in/anujkumar1512/">Connect on LinkedIn →</a>
 </p>
