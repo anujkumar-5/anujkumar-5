@@ -1,6 +1,6 @@
 <!-- Profile README for github.com/anujkumar-5 -->
 
-<h1 align="center">Hi, I'm Anuj Kumar 👋</h1>
+<h1 align="center">Hi there, I'm <strong>Anuj</strong> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 
 <p align="center">
   <b>Senior Software Engineer · Backend Systems & Generative AI</b><br>
